@@ -6,7 +6,7 @@ const PORT = 3000;
 app.use(express.json());
 
 // Table of allowed Game IDs
-const allowedGameIds = [123456789, 987654321, 111222333]; // Replace with your actual game IDs
+const allowedGameIds = [7733969706, 987654321, 111222333]; // Replace with your actual game IDs
 
 // Handle POST requests
 app.post("/check-game", (req, res) => {
